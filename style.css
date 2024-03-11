@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  /*   height: 80lvh;
+  height: 80svh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat, sans-serif;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  body {
+    height: auto;
+  }
+}
+
+.container {
+  width: auto;
+  max-width: 900px;
+  line-height: 30px;
+  background: #0096888c;
+  border-radius: 10px;
+  padding: 20px 10px;
+  box-shadow: 0px 0px 4px 3px #2196f321;
+  text-align: center;
+}
+.fa-quote-right {
+  font-size: 40px;
+  color: #01675d;
+  margin-right: 8px;
+}
+.text {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.author {
+  font-size: 22px;
+  font-style: oblique;
+  margin-top: 22px;
+}
+.linksGen {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+.linksGen button {
+  outline: none;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 8px;
+  font-size: 21px;
+  font-weight: 100;
+  background-color: #01635a;
+  color: #ffffff;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 6px 0px #5a6866;
+  cursor: pointer;
+}
+.linksGen button:first-child {
+  margin-right: 15px;
+}
